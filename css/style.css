@@ -1,0 +1,155 @@
+@font-face {
+   font-family: "post-no-bills-jaffna";
+   src: url("../source/fonts/Post-No-Bills-Jaffna-Bold.ttf.svg") format("truetype");
+}
+/* !Обнуление */
+
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+html,
+body {
+   height: 100%;
+   line-height: 1;
+   font-family: "PT Sans";
+   font-weight: 500;
+   font-size: 16px;
+   color: #ffffff;
+   background-color: #0f0f0f;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+/* !Конец обнуления */
+
+._container {
+   max-width: 1116px;
+   padding: 0px 15px;
+   margin: 0px auto;
+   box-sizing: content-box;
+}
+/*  !header        */
+.header {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   top: 0;
+   z-index: 50;
+   background: #000000;
+}
+.header__container {
+   display: flex;
+   min-height: 44px;
+   align-items: center;
+   font-size: 12px;
+   font-weight: 400;
+   color: #969696;
+}
+
+.header__phone-logo {
+   margin: 2px 0px 0px 0px;
+}
+.header__phone-number {
+   margin: 0px 0px 0px 16.31px;
+}
+
+.header__enter-logo {
+   margin: 0px 0px 0px 30.9%;
+}
+}
+.header__enter-text {
+   margin-right: 21%;
+}
+
+/* ! Navigation_    */
+.nav {
+   background-color: #0f0f0f;
+   position: absolute;
+   width: 100%;
+   left: 0;
+   top: 44px;
+  
+   z-index: 5;
+}
+
+.nav__container {
+   display: flex;
+   align-items: center;
+   min-height: 80px;
+}
+.nav__logo {
+   margin: 0px 0px 0px 0px;
+   font-family: "post-no-bills-jaffna";
+   font-weight: 700;
+   font-size: 36px;
+   color: inherit;
+}
+
+.nav__logo:hover {
+   color: inherit;
+}
+
+.nav__menu {
+   margin: 0px 0px 0px 25.4%;
+}
+.menu {
+}
+.menu__list {
+   flex-wrap: wrap;
+   display: flex;
+}
+.menu__item {
+}
+.menu__link {
+   display: inline-block;
+   text-transform: uppercase;
+   font-size: 14px;
+   padding: 31px 20px;
+
+   transition: 0.4s ease-in-out;
+   color: #969696;
+   line-height: 18px;
+}
+
+.menu__link:hover {
+   color: inherit;
+   background-color: #1f1f1f;
+}
+/* .rectangle{
+
+   width: 136px;
+   height: 80;
+   color: background: #1F1F1F;
+   z-index: 5;
+} */
